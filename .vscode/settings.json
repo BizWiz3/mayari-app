@@ -1,0 +1,13 @@
+{
+    "luau-lsp.sourcemap.enabled": false,
+    "luau-lsp.fflags.enableNewSolver": true,
+    "luau-lsp.fflags.enableByDefault": true,
+    "luau-lsp.plugins.enabled": true,
+    "luau-lsp.plugins.paths": [
+        "./.vscode/plugins/package-resolver.luau"
+    ],
+    "luau-lsp.plugins.fileSystem.enabled": true,
+    "luau-lsp.types.definitionFiles": {
+        "mayari": "packages/luau/.ember/mayari_types/mayari.d.luau"
+    }
+}

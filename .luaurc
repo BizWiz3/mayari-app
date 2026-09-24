@@ -1,0 +1,9 @@
+{
+    "aliases": {
+        "std": "~/.lute/typedefs/1.0.0/std", 
+        "lint": "~/.lute/typedefs/1.0.0/lint", 
+        "pkg": "./packages/luau", 
+        "lute": "~/.lute/typedefs/1.0.0/lute",
+        "c": "/home/wiz/projects/mayari-org/mayari-app/"
+    }
+}
