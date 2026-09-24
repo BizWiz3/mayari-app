@@ -8,8 +8,8 @@ RUN apt-get update && \
         libssl3 \
         libdbus-1-3 \
         libstdc++6 \
-        git && \
-    rm -rf /var/lib/apt/lists/*
+        git \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN curl -fsSL https://mayari-org.github.io/docs/install-ember.sh | sh
 
